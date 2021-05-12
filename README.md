@@ -4,7 +4,7 @@
 
 我仅仅是对代码做了简单的修改，增加了函数说明注释和stats函数，可以用于统计文本中各种模式的分布(数量)情况。代码原作者为刘焕勇 https://github.com/liuhuanyong
 
-
+<br>
 
 ### 事件图谱（事理图谱）的类型
 项目地址https://github.com/liuhuanyong/ComplexEventExtraction 项目介绍很详细，感兴趣的一定要去原项目看一下。
@@ -21,6 +21,8 @@
 2、条件事件图谱
 ![](img/condition.png)
 
+<br>
+<br>
 
 
 # 二、安装方法
@@ -32,6 +34,8 @@
 ```
 pip3 install eventextraction
 ```
+
+<br>
 
 ### 2.2 加镜像站点
 
@@ -49,6 +53,8 @@ https://pypi.org/simple
 pip3 install eventextraction -i https://pypi.org/simple
 ```
 
+<br>
+
 ### 2.3 国内镜像安装
 
 如果国内镜像站点已经收录，那么使用这个会更快
@@ -59,7 +65,7 @@ pip3 install eventextraction -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 
 
-
+<br><br>
 
 # 三、使用
 
@@ -83,7 +89,7 @@ print(datas)
 
 ```
 
-
+<br>
 
 ### 3.2 统计
 
@@ -101,12 +107,33 @@ print(extractor.stats(datas))
 ```
 {'but': 1, 'condition': 1, 'seq': 0, 'more': 0, 'other': 0}
 ```
+<br><br>
+
+# 如果
+
+如果您是经管人文社科专业背景，编程小白，面临海量文本数据采集和处理分析艰巨任务，可以参看[《python网络爬虫与文本数据分析》](https://ke.qq.com/course/482241?tuin=163164df)视频课。作为文科生，一样也是从两眼一抹黑开始，这门课程是用五年时间凝缩出来的。自认为讲的很通俗易懂o(*￣︶￣*)o，
+
+- python入门
+- 网络爬虫
+- 数据读取
+- 文本分析入门
+- 机器学习与文本分析
+- 文本分析在经管研究中的应用
+
+感兴趣的童鞋不妨 戳一下[《python网络爬虫与文本数据分析》](https://ke.qq.com/course/482241?tuin=163164df)进来看看~
+
+[![](img/课程.png)](https://ke.qq.com/course/482241?tuin=163164df)
+
 
 
 # 更多
 
 - [B站:大邓和他的python](https://space.bilibili.com/122592901/channel/detail?cid=66008)
-- 公众号：大邓和他的python
-- [知乎专栏：数据科学家](https://zhuanlan.zhihu.com/dadeng)
-- [《python网络爬虫与文本数据分析》](https://ke.qq.com/course/482241?tuin=163164df)视频课
 
+- 公众号：大邓和他的python
+
+- [知乎专栏：数据科学家](https://zhuanlan.zhihu.com/dadeng)
+
+<br>
+
+![](img/大邓和他的Python.png)
